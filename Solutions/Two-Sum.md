@@ -64,6 +64,8 @@ class Solution {
     https://leetcode.com/problems/two-sum/submissions/1572132188/
 ```
 
+---
+
 ### 🔧 Java Solution
 ```java
 import java.util.*;
