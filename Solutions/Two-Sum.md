@@ -59,12 +59,11 @@ class Solution {
 };
 ```
 
-#### Execution:
+#### Execution of above code:
 ```plaintext
     https://leetcode.com/problems/two-sum/submissions/1572132188/
 ```
 
----
 
 ### 🔧 Java Solution
 ```java
@@ -82,6 +81,11 @@ public class TwoSum {
         return new int[]{};
     }
 }
+```
+
+#### Execution of above code:
+```plaintext
+    https://leetcode.com/problems/two-sum/submissions/1572136382/
 ```
 
 ---
@@ -107,6 +111,11 @@ vector<int> twoSum(vector<int>& nums, int target) {
 }
 ```
 
+#### Execution of above code:
+```plaintext
+    https://leetcode.com/problems/two-sum/submissions/1572136382/
+```
+
 ### 🔧 Java Solution
 ```java
 import java.util.*;
@@ -124,6 +133,11 @@ public class TwoSumHashMap {
         return new int[]{};
     }
 }
+```
+
+#### Execution of above code:
+```plaintext
+    [https://leetcode.com/problems/two-sum/submissions/1572136382/](https://leetcode.com/problems/two-sum/submissions/1572137339/)
 ```
 
 ---
