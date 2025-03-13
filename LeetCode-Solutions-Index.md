@@ -6,9 +6,9 @@ This file serves as an organized index of all solved LeetCode problems in this r
 
 ## 📌 Problem List
 
-| Problem Number | Title               | Language(s) | Link to Solution |
-|----------------|---------------------|-------------|------------------|
-| 0001           | Two Sum             |  C++, Java  | [Link](Solutions/Two-Sum.md) |
+| Problem Number | Title               | Language(s) |                 Approaches                 | Link to Solution |
+|----------------|---------------------|-------------|--------------------------------------------|------------------|
+| 0001           | Two Sum             |  C++, Java  | Brute-Force, Hash Map                      | [Link](Solutions/Two-Sum.md) |
 
 
 ---
