@@ -31,14 +31,16 @@ Output: [0,1]
 ---
 
 ### Constraints
-`2 <= nums.length <= 104`<br />
-`-109 <= nums[i] <= 109`<br />
-`-109 <= target <= 109`<br />
-`Only one valid answer exists`<br />
+> `2 <= nums.length <= 104`<br />
+> `-109 <= nums[i] <= 109`<br />
+> `-109 <= target <= 109`<br />
+> `Only one valid answer exists`<br />
 
+---
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
+---
 
 ## 💡 Approach 1: Brute Force (Time Complexity: O(n²))
 
