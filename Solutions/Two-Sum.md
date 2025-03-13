@@ -136,8 +136,8 @@ public class TwoSumHashMap {
 ```
 
 #### Execution of above code:
-```plaintext
-    [https://leetcode.com/problems/two-sum/submissions/1572136382/](https://leetcode.com/problems/two-sum/submissions/1572137339/)
+```link
+    https://leetcode.com/problems/two-sum/submissions/1572137339/
 ```
 
 ---
