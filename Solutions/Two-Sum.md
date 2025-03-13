@@ -60,7 +60,7 @@ class Solution {
 ```
 
 #### Execution of above code:
-```plaintext
+```link
     https://leetcode.com/problems/two-sum/submissions/1572132188/
 ```
 
@@ -84,7 +84,7 @@ public class TwoSum {
 ```
 
 #### Execution of above code:
-```plaintext
+```link
     https://leetcode.com/problems/two-sum/submissions/1572136382/
 ```
 
@@ -112,7 +112,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
 ```
 
 #### Execution of above code:
-```plaintext
+```link
     https://leetcode.com/problems/two-sum/submissions/1572136382/
 ```
 
