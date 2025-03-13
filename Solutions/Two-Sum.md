@@ -119,8 +119,8 @@ class Solution {
 
 ### 🔧 Java Solution
 ```java
-import java.util.HashMap;
 import java.util.Map;
+import java.util.HashMap;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
