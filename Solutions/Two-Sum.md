@@ -67,7 +67,7 @@ class Solution {
 ```java
 import java.util.*;
 
-public class TwoSum {
+public class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -92,21 +92,20 @@ public class TwoSum {
 
 ### 🔧 C++ Solution
 ```cpp
-#include <vector>
-#include <unordered_map>
-using namespace std;
-
-vector<int> twoSum(vector<int>& nums, int target) {
-    unordered_map<int, int> map;
-    for (int i = 0; i < nums.size(); i++) {
-        int complement = target - nums[i];
-        if (map.find(complement) != map.end()) {
-            return {map[complement], i};
+class Solution {
+    public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> map;
+        for (int i = 0; i < nums.size(); i++) {
+            int complement = target - nums[i];
+            if (map.find(complement) != map.end()) {
+                return {map[complement], i};
+            }
+            map[nums[i]] = i;
         }
-        map[nums[i]] = i;
+        return {};
     }
-    return {};
-}
+};
 ```
 
 #### Execution of above code:
@@ -116,14 +115,15 @@ vector<int> twoSum(vector<int>& nums, int target) {
 
 ### 🔧 Java Solution
 ```java
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-public class TwoSumHashMap {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
+       Map<Integer, Integer> map = new HashMap<>();
+        for(int i=0; i<nums.length; i++) {
             int complement = target - nums[i];
-            if (map.containsKey(complement)) {
+            if(map.containsKey(complement)) {
                 return new int[]{map.get(complement), i};
             }
             map.put(nums[i], i);
