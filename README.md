@@ -80,10 +80,19 @@ To compile a C++ solution (for example, the Two Sum problem):
 
 ```bash
 g++ -std=c++17 -o solution 001_Two_Sum.cpp
+```
+then
+```bash
 ./solution
 ```
+
+#### or
+
 ```bash
 g++ 001_Two_Sum.cpp
+```
+then
+```bash
 ./a.exe
 ```
 
