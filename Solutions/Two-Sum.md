@@ -153,10 +153,13 @@ class Solution {
 
 ---
 
-## 🏅 Key Takeaways
+## 🏅 Key Takeaways  
 
-- **Brute Force:** Simple but inefficient for large datasets.
-- **Hash Map:** Efficient for both time and space, optimal solution.
-- **Edge Cases:** Consider duplicates, negative numbers, and minimum array sizes.
+- **Brute Force Approach:** Simple but has **O(n²) time complexity**, making it inefficient for large inputs.  
+- **Optimized Hash Map Approach:** Uses a **hash map to store complements**, reducing time complexity to **O(n)**.  
+- **Efficient Space Usage:** The hash map approach requires **O(n) extra space**, but significantly improves performance.  
+- **Handles Various Edge Cases:** Works with negative numbers, duplicate values, and small inputs.  
+- **Guaranteed Solution:** Since the problem states that one valid solution exists, we can confidently return upon finding it.  
+- **Real-World Application:** Common in financial transactions, inventory matching, and number-pairing algorithms.
 
 Write code that not only solves problems but stands the test of time — precision, performance, and clarity matter most. 🎯
