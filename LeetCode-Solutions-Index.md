@@ -4,7 +4,7 @@ This file serves as an organized index of all solved LeetCode problems in this r
 
 ---
 
-## 📌 Problem List (as per LeetCode)
+## 📌 Problem List ( as per LeetCode )
 
 | Problem Number | Title               | Language(s) |                 Approaches                 | Link to Solution |
 |----------------|---------------------|-------------|--------------------------------------------|------------------|
