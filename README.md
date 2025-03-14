@@ -78,20 +78,23 @@ LeetCode-Solutions/
 
 To compile a C++ solution (for example, the Two Sum problem):
 
+> Compilation
 ```bash
 g++ -std=c++17 -o solution 001_Two_Sum.cpp
 ```
 then
+> Execution
 ```bash
 ./solution
 ```
 
-#### or
-
+or
+> Compilation
 ```bash
 g++ 001_Two_Sum.cpp
 ```
 then
+> Execution
 ```bash
 ./a.exe
 ```
@@ -99,9 +102,13 @@ then
 #### Java Example
 
 To compile and run a Java solution (for example, the Two Sum problem):
-
+> Compilation
 ```bash
 javac 001_Two_Sum.java
+```
+then
+> Execution
+```bash
 java 001_Two_Sum
 ```
 
