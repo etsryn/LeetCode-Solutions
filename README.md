@@ -1,5 +1,5 @@
 # LeetCode-Solutions
-
+![leetcode-icon](https://media.licdn.com/dms/image/v2/D4D12AQHJ9CMupIzJIw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1680074638934?e=2147483647&v=beta&t=qAcoaDdJ-Z-riGauj6LIY6w3-rY4iwD48tRANDSdxo4)
 A curated repository of optimized solutions for LeetCode challenges implemented in **C++** and **Java**. This repository serves as a reference for algorithmic problem solving, interview preparation, and mastering data structures.
 
 ---
