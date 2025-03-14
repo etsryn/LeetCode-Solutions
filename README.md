@@ -28,38 +28,45 @@ The repository is organized by programming language and then by problem categori
 
 ```
 LeetCode-Solutions/
-├── C++/
-│   ├── Arrays/
-│   ├── LinkedLists/
-│   ├── Trees/
-│   ├── Graphs/
-│   └── Miscellaneous/
-├── Java/
-│   ├── Arrays/
-│   ├── LinkedLists/
-│   ├── Trees/
-│   ├── Graphs/
-│   └── Miscellaneous/
-├── README.md
-└── CONTRIBUTING.md
+├── LeetCode-Streak/
+│   ├── Daily Questions 1
+│   | 
+│   .
+│   .
+│   .
+│   .
+│   |
+|   └── Daily Questions n
+|
+├── Solutions/
+│   ├── Two-Sum.md/
+│   ├── Add-Two-Numbers.md/
+│   .
+│   .
+│   .
+│   |
+│   └── n<sup>th</sup> Question
+├── CONTRIBUTING.md
+├── LICENSE
+├── LeetCode-Solutions-Index.md
+└── README.md
 ```
 
-- **C++ and Java Folders:** Each folder contains subdirectories categorizing the problems (e.g., Arrays, LinkedLists, Trees, Graphs).
-- **File Naming:** Solutions are named by their LeetCode problem number and title for easy navigation.
+- **LeetCode-Streak Folder:** Contains LeetCode's Daily Challenge Problem's Solution -- Maintaining Streak
+  - **File Naming:** Solutions are named by their LeetCode problem number and title for easy navigation
+- **Solutions Folder:** Contains LeetCode's Problems solved using languages either `C++` or `Java` or both
+  - **File Naming:** Solutions are named by their LeetCode problem title for easy navigation.
 - **Documentation Files:**
   - **README.md:** Provides an overview and usage instructions.
   - **CONTRIBUTING.md:** Outlines guidelines for contributing to the repository.
+  - **LeetCode-Solutions-Index.md:** Outlines guidelines for accessing question's solution easily -- Indexing
 
 ---
 
-## Languages and Tools
+## Languages
 
 - **C++:** Utilizes modern C++ standards (e.g., C++11/14/17) and STL for robust and optimized solutions.
 - **Java:** Emphasizes clarity and efficiency using core Java libraries.
-- **Development Tools:**
-  - **IDEs:** Visual Studio Code, CLion (for C++), IntelliJ IDEA, or Eclipse (for Java).
-  - **Build Tools:** CMake for C++ projects and Maven/Gradle for Java projects.
-
 ---
 
 ## Usage
@@ -71,8 +78,12 @@ LeetCode-Solutions/
 To compile a C++ solution (for example, the Two Sum problem):
 
 ```bash
-g++ -std=c++17 -o solution C++/Arrays/001_Two_Sum.cpp
+g++ -std=c++17 -o solution 001_Two_Sum.cpp
 ./solution
+```
+```bash
+g++ 001_Two_Sum.cpp
+./a.exe
 ```
 
 #### Java Example
@@ -80,8 +91,8 @@ g++ -std=c++17 -o solution C++/Arrays/001_Two_Sum.cpp
 To compile and run a Java solution (for example, the Two Sum problem):
 
 ```bash
-javac Java/Arrays/001_Two_Sum.java
-java Arrays.001_Two_Sum
+javac 001_Two_Sum.java
+java 001_Two_Sum
 ```
 
 Feel free to adapt the commands based on your system configuration and project structure.
