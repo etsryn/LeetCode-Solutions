@@ -49,7 +49,7 @@ LeetCode-Solutions/
 |
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── LangParity-C++ & Java.md
+├── LangParity C++ & Java.md
 ├── LeetCode-Solutions-Index.md
 └── README.md
 ```
