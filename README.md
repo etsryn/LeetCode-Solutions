@@ -46,6 +46,7 @@ LeetCode-Solutions/
 │   .
 │   |
 │   └── n<sup>th</sup> Question
+|
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── LeetCode-Solutions-Index.md
