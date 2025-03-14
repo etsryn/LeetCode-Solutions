@@ -120,9 +120,13 @@ public class AddTwoNumbers {
 
 ---
 
-## 🏅 Key Takeaways
+## 🏅 Key Takeaways  
 
-- **Iterative:** Clean and straightforward, easy to understand.
-- **Edge Cases:** Handles different length lists, carryovers, and single-node edge cases.
+- **Iterative & Efficient:** Uses a **dummy node** and **single-pass iteration** to construct the sum list efficiently.  
+- **Handles Unequal Lengths:** Works even if `l1` and `l2` have different lengths, filling missing values as `0`.  
+- **Manages Carry Properly:** Correctly handles carry propagation across nodes, even when it extends beyond the last digits.  
+- **Memory Efficient:** Uses **O(max(n, m))** space, as required for storing the result list.  
+- **Edge Case Handling:** Works for inputs like `[0] + [0]`, very large numbers, and cases where carry extends the list.  
+- **Clear & Modular:** Uses a `dummy` node for simplicity and avoids unnecessary condition checks.
 
 Write code that not only solves problems but stands the test of time — precision, performance, and clarity matter most. 🎯
