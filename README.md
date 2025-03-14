@@ -36,7 +36,7 @@ LeetCode-Solutions/
 │   .
 │   .
 │   |
-|   └── Daily Questions n
+|   └── Daily Questions nᵗʰ
 |
 ├── Solutions/
 │   ├── Two-Sum.md/
@@ -45,7 +45,7 @@ LeetCode-Solutions/
 │   .
 │   .
 │   |
-│   └── n<sup>th</sup> Question
+│   └── nᵗʰ Question
 |
 ├── CONTRIBUTING.md
 ├── LICENSE
