@@ -1,7 +1,7 @@
 # LangParity: C++ and Java : Syntax Comparisons and Operational Differences
 
 ## 🎯 Overview
-This document outlines the key syntax differences between C++ and Java — a quick reference for anyone switching between the two languages or doing them in parallel as I'm
+This document outlines the key syntax differences between C++ and Java — a quick reference for anyone switching between the two languages or doing them in parallel as I'm !
 
 ---
 
