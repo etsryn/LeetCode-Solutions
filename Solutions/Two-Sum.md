@@ -159,5 +159,4 @@ class Solution {
 - **Hash Map:** Efficient for both time and space, optimal solution.
 - **Edge Cases:** Consider duplicates, negative numbers, and minimum array sizes.
 
-Happy problem solving! 🚀
-
+Write code that not only solves problems but stands the test of time — precision, performance, and clarity matter most. 🎯
