@@ -22,7 +22,7 @@ A curated repository of optimized solutions for LeetCode challenges implemented 
 
 ---
 
-## Project Structure
+## Repository Structure
 
 The repository is organized by programming language and then by problem categories:
 
