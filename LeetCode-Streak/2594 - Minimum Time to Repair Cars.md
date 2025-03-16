@@ -1,4 +1,4 @@
-# 🧠 LeetCode Problem: 2594 - Minimum Time to Repair Cars
+# 🧠 LeetCode Problem: Minimum Time to Repair Cars
 
 ## 📌 Problem Statement
 
