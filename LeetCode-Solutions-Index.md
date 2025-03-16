@@ -10,6 +10,7 @@ This file serves as an organized index of all solved LeetCode problems in this r
 |----------------|---------------------|-------------|--------------------------------------------|------------------|
 | 1              | Two Sum             |  C++, Java  | Brute-Force, Hash Map                      | [Link](Solutions/Two-Sum.md) |
 | 2              | Add Two Numbers     |  C++, Java  | Iterative                                  | [Link](Solutions/Add-Two-Numbers.md) |
+| 27             | Remove Element      |  C++, Java  | Brute Force (Naive), Two Pointers (Efficient In-Place), Swap to End (Fewer Writes)                                  | [Link](Solutions/Remove-Element.md) |
 
 
 ---
