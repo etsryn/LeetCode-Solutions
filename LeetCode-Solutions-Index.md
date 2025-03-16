@@ -19,5 +19,9 @@ This file serves as an organized index of all solved LeetCode problems in this r
 | Problem Number | Title                                   | Language(s) |                 Approaches                 | Link to Solution |
 |----------------|-----------------------------------------|-------------|--------------------------------------------|------------------|
 | 2226           | Maximum Candies Allocated to K Children |  C++, Java  | Binary Search                      | [Link](./LeetCode-Streak/2226%20-%20Maximum%20Candies%20Allocated%20to%20K%20Children.md) |
+| 2594           | Minimum Time to Repair Cars |  C++, Java  | Binary Search on Time (Optimal Solution — Balanced Mechanics) | [Link](./LeetCode-Streak/2594%20-%20Minimum%20Time%20to%20Repair%20Cars.md) |
 
+
+
+2594 - Minimum Time to Repair Cars.md
 ---
