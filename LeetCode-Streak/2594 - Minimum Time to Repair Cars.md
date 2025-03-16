@@ -39,7 +39,7 @@ Explanation:
 
 ---
 
-## 💡 Approach: Binary Search (Optimal — Balanced Mechanics) (Time Complexity: O(n * log(10<sup>14</sup>))
+## 💡 Approach: Binary Search (Balanced Mechanics) (Time Complexity: O(n * log(10<sup>14</sup>))
 
 ### 🔧 C++ Solution
 
