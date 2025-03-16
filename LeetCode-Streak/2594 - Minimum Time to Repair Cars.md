@@ -39,7 +39,7 @@ Explanation:
 
 ---
 
-## 💡 Approach 1: Binary Search on Time (Optimal Solution — Balanced Mechanics) (Time Cpmplexity: $O(n \times \log(10^{14}))$)
+## 💡 Approach 1: Binary Search on Time (Optimal Solution — Balanced Mechanics) (Time Cpmplexity: O(n * log(n * log(10<sup>14</sup>))
 
 ### 🔧 C++ Solution
 
