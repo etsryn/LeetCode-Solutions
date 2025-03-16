@@ -52,7 +52,7 @@ This document outlines the key syntax differences between C++ and Java — a qui
 ## 🔥 Data Structures : Linked List
 
 | Feature           | C++                                             | Java                                        |
-|-------------------|-------------------------------------------------|------------------------------------ --------|
+|-------------------|-------------------------------------------------|---------------------------------------------|
 | **Definition**    | `struct Node { int data; Node* next; };`        | `class Node { int data; Node next; }`       |
 | **Node Creation** | `Node* head = new Node();`                      | `Node head = new Node();`                   |
 | **Insertion**     | `head->next = new Node();`                      | `head.next = new Node();`                   |
