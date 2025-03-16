@@ -60,14 +60,25 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ---
 
+## 🔥 Data Structures : Vectors (C++) & ArrayList (Java)
+
+| Feature       | C++ Syntax                                          | Java Syntax                                     |
+|---------------|-----------------------------------------------------|-------------------------------------------------|
+| **Declaration** | `vector<int> v;`                        | `ArrayList<Integer> v = new ArrayList<>();`                        |
+| **Add Element** | `v.push_back(10);`                           | `v.add(10);`                        |
+| **Size** | `v.size()`      | `v.size()`      |
+| **Access Element** | `v[i]`      | `v.get(i)`      |
+
+---
+
 ## 🔥 Data Structures : Tree (BST, Skewed Tree - Right-ST + Left-ST, N-Ary Tree)
 
 | Feature       | C++ Syntax                                          | Java Syntax                                     |
 |---------------|-----------------------------------------------------|-------------------------------------------------|
-| **Definition** | `struct Node { int data; Node* left; Node* right; };`| `class Node { int data; Node left, right; }`     |
-| **Node Creation** | `Node* root = new Node();`                         | `Node root = new Node();`                        |
-| **Insertion** | `root->left = new Node();`                           | `root.left = new Node();`                        |
-| **Traversal** | `void inorder(Node* root) { if(root) { inorder(root->left); cout << root->data; inorder(root->right); }}` | `void inorder(Node root) { if(root != null) { inorder(root.left); System.out.print(root.data); inorder(root.right); }}` |
+| **Definition** | `###############`| `###############`|
+| **Node Creation** | `###############` | `###############` |
+| **Insertion** | `###############` | `###############` |
+| **Traversal** | `###############` | `###############` |
 
 ---
 
