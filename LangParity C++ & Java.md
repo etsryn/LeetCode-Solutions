@@ -7,20 +7,20 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ## 🔧 Basic Syntax Differences
 
-| Feature            | C++ Syntax               | Java Syntax               |
+| Feature | C++ | Java |
 |--------------------|--------------------------|---------------------------|
-| **Printing Output** | `cout << "Hello";`       | `System.out.println("Hello");` |
-| **Input**           | `cin >> x;`              | `Scanner sc = new Scanner(System.in); x = sc.nextInt();` |
-| **Comments**       | `// single-line` / `/* multi-line */` | `// single-line` / `/* multi-line */` |
-| **Main Function**   | `int main() {}`          | `public static void main(String[] args) {}` |
+| **Printing Output** | `cout << "Hello";` | `System.out.println("Hello");` |
+| **Input** | `cin >> x;` | `Scanner sc = new Scanner(System.in); x = sc.nextInt();` |
+| **Comments** | `// single-line` / `/* multi-line */` | `// single-line` / `/* multi-line */` |
+| **Main Function** | `int main() {}` | `public static void main(String[] args) {}` |
 
 ---
 
 ## 🔢 Data Types
 
-| Type         | C++    | Java    |
+| Type | C++ | Java |
 |--------------|--------|---------|
-| Integer      | `int`  | `int`   |
+| Integer      | `int` | `int` |
 | Float/Double | `float`/`double` | `float`/`double` |
 | String       | `string` (`#include<string>`) | `String` (capital S) |
 | Boolean      | `bool` | `boolean` |
@@ -29,7 +29,7 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ## 🔄 Loops
 
-| Loop Type         | C++ Syntax                         | Java Syntax                         |
+| Loop Type         | C++ | Java |
 |-------------------|-----------------------------------|------------------------------------|
 | **For Loop**       | `for (int i = 0; i < n; i++) {}`   | `for (int i = 0; i < n; i++) {}`    |
 | **While Loop**     | `while (condition) {}`            | `while (condition) {}`              |
@@ -40,7 +40,7 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ## 🔥 Data Structures : Array
 
-| Feature       | C++ Syntax                    | Java Syntax                 |
+| Feature       | C++                    | Java                 |
 |---------------|-------------------------------|-----------------------------|
 | **Declaration**| `int arr[5];`                 | `int[] arr = new int[5];`    |
 | **Initialization** | `int arr[5] = {1,2,3,4,5};`| `int[] arr = {1,2,3,4,5};`   |
@@ -51,7 +51,7 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ## 🔥 Data Structures : Linked List
 
-| Feature       | C++ Syntax                                          | Java Syntax                                     |
+| Feature       | C++                                          | Java                                     |
 |---------------|-----------------------------------------------------|-------------------------------------------------|
 | **Definition** | `struct Node { int data; Node* next; };`            | `class Node { int data; Node next; }`            |
 | **Node Creation** | `Node* head = new Node();`                        | `Node head = new Node();`                        |
@@ -62,7 +62,7 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ## 🔥 Data Structures : Vectors (C++) & ArrayList (Java)
 
-| Feature       | C++ Syntax                                          | Java Syntax                                     |
+| Feature       | C++                                          | Java                                     |
 |---------------|-----------------------------------------------------|-------------------------------------------------|
 | **Declaration** | `vector<int> v;`                        | `ArrayList<Integer> v = new ArrayList<>();`                        |
 | **Add Element** | `v.push_back(10);`                           | `v.add(10);`                        |
@@ -73,7 +73,7 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ## 🔥 Data Structures : Tree (BST, Skewed Tree - Right-ST + Left-ST, N-Ary Tree)
 
-| Feature       | C++ Syntax                                          | Java Syntax                                     |
+| Feature       | C++                                          | Java                                     |
 |---------------|-----------------------------------------------------|-------------------------------------------------|
 | **Definition** | `###############`| `###############`|
 | **Node Creation** | `###############` | `###############` |
