@@ -1,7 +1,7 @@
 # LangParity: C++ and Java : Syntax Comparisons and Operational Differences
 
 ## 🎯 Overview
-This document outlines the key syntax differences between C++ and Java — a quick reference for anyone switching between the two languages or doing them in parallel as I'm !
+This document outlines the key syntax differences between C++ and Java — a quick reference for anyone switching between the two languages or doing them in parallel as I'm!
 
 ---
 
@@ -27,17 +27,6 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ---
 
-## 🛠️ String Operations
-
-| Operation        | C++ Syntax            | Java Syntax              |
-|------------------|-----------------------|--------------------------|
-| **Length**        | `str.size()` or `str.length()` | `str.length()`           |
-| **Concatenation** | `str1 + str2`         | `str1.concat(str2)` or `str1 + str2` |
-| **Substring**     | `str.substr(start, len)` | `str.substring(start, end)` |
-| **Character Access** | `str[i]`           | `str.charAt(i)`          |
-
----
-
 ## 🔄 Loops
 
 | Loop Type         | C++ Syntax                         | Java Syntax                         |
@@ -49,56 +38,38 @@ This document outlines the key syntax differences between C++ and Java — a qui
 
 ---
 
-## 🧠 Conditionals
+## 🔥 Data Structures : Array
 
-| Condition Type     | C++ Syntax          | Java Syntax         |
-|--------------------|---------------------|---------------------|
-| **If-Else**         | `if (condition) {}` | `if (condition) {}` |
-| **Else-If**         | `else if (cond) {}` | `else if (cond) {}` |
-| **Ternary Operator**| `condition ? a : b` | `condition ? a : b` |
-
----
-
-## 🚀 Exception Handling
-
-| Feature            | C++ Syntax                 | Java Syntax                    |
-|--------------------|----------------------------|-------------------------------|
-| **Try-Catch Block** | `try { ... } catch(...) {}` | `try { ... } catch(Exception e) {}` |
-| **Throw Exception** | `throw 404;`               | `throw new Exception("Error");`    |
+| Feature       | C++ Syntax                    | Java Syntax                 |
+|---------------|-------------------------------|-----------------------------|
+| **Declaration**| `int arr[5];`                 | `int[] arr = new int[5];`    |
+| **Initialization** | `int arr[5] = {1,2,3,4,5};`| `int[] arr = {1,2,3,4,5};`   |
+| **Accessing** | `arr[0]`                      | `arr[0]`                    |
+| **Size**      | `sizeof(arr)/sizeof(arr[0])`  | `arr.length`                 |
 
 ---
 
-## 🏗️ Functions/Methods
+## 🔥 Data Structures : Linked List
 
-| Feature        | C++ Syntax                     | Java Syntax                        |
-|----------------|--------------------------------|-----------------------------------|
-| **Function Declaration** | `int add(int a, int b)`     | `int add(int a, int b)`               |
-| **Return Statement** | `return a + b;`              | `return a + b;`                      |
-| **Void Function**    | `void display()`             | `void display()`                     |
-| **Function Call**    | `add(3, 4)`                  | `add(3, 4)`                          |
-
----
-
-## 🏗️ Classes and Objects
-
-| Feature            | C++ Syntax                                   | Java Syntax                                     |
-|--------------------|----------------------------------------------|--------------------------------------------------|
-| **Class Definition** | `class MyClass { ... };`                    | `class MyClass { ... }`                           |
-| **Object Creation** | `MyClass obj;`                               | `MyClass obj = new MyClass();`                    |
-| **Constructor**    | `MyClass() {}` *(Defined inside class)*       | `MyClass() {}` *(Defined inside class)*           |
-| **Access Modifiers** | `public`, `private`, `protected`            | `public`, `private`, `protected`, *default*       |
+| Feature       | C++ Syntax                                          | Java Syntax                                     |
+|---------------|-----------------------------------------------------|-------------------------------------------------|
+| **Definition** | `struct Node { int data; Node* next; };`            | `class Node { int data; Node next; }`            |
+| **Node Creation** | `Node* head = new Node();`                        | `Node head = new Node();`                        |
+| **Insertion** | `head->next = new Node();`                           | `head.next = new Node();`                        |
+| **Traversal** | `while(temp != nullptr) { temp = temp->next; }`      | `while(temp != null) { temp = temp.next; }`      |
 
 ---
 
-## 🔥 Memory Management
+## 🔥 Data Structures : Tree (BST, Skewed Tree - Right-ST + Left-ST, N-Ary Tree)
 
-| Feature          | C++ Syntax                      | Java Syntax                    |
-|------------------|---------------------------------|-------------------------------|
-| **Memory Allocation** | `int* ptr = new int;`          | `int[] arr = new int[10];`     |
-| **Memory Deallocation** | `delete ptr;`                | *Garbage Collection (Automatic)* |
+| Feature       | C++ Syntax                                          | Java Syntax                                     |
+|---------------|-----------------------------------------------------|-------------------------------------------------|
+| **Definition** | `struct Node { int data; Node* left; Node* right; };`| `class Node { int data; Node left, right; }`     |
+| **Node Creation** | `Node* root = new Node();`                         | `Node root = new Node();`                        |
+| **Insertion** | `root->left = new Node();`                           | `root.left = new Node();`                        |
+| **Traversal** | `void inorder(Node* root) { if(root) { inorder(root->left); cout << root->data; inorder(root->right); }}` | `void inorder(Node root) { if(root != null) { inorder(root.left); System.out.print(root.data); inorder(root.right); }}` |
 
 ---
 
 ## 🎉 Final Thoughts
 This Markdown file serves as a quick yet comprehensive reference to bridge the syntax gap between C++ and Java. Whether you’re prepping for an interview or shifting between languages — efficiency is key! 🚀✨
-
