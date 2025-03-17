@@ -156,9 +156,9 @@ class Solution {
 
 ## 🔍 Complexity Analysis
 
-| Approach      | Time Complexity          | Space Complexity |
-|---------------|--------------------------|------------------|
-| Binary Search | O(n log(sum(candies)/k)) | O(1)             |
+| Approach      | Time Complexity            | Space Complexity |
+|---------------|----------------------------|------------------|
+| Binary Search | $O(n log(sum(candies)/k))$ | $O(1)$           |
 
 ---
 
