@@ -115,7 +115,7 @@ class Solution {
 
 | Approach          | Time Complexity    | Space Complexity | Notes                                       |
 | ----------------- | ------------------ | ---------------- | ------------------------------------------- |
-| Binary Search     | $O(n \times \log(10^{14}))$   | $O(1)$             | Optimal — Balanced distribution      |
+| Binary Search     | $O(n\ \log(10^{14}))$   | $O(1)$             | Optimal — Balanced distribution      |
 
 ---
 
