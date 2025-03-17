@@ -36,7 +36,7 @@ Output: [8,9,9,9,0,0,0,1]
 
 ---
 
-## 💡 Approach: Iterative (Time Complexity: O(max(n, m)))
+## 💡 Approach: Iterative (Time Complexity: `O(max(n, m))`)
 
 ### 🔧 C++ Solution
 ```cpp
@@ -116,7 +116,7 @@ public class AddTwoNumbers {
 
 | Approach    | Time Complexity | Space Complexity |
 |-------------|------------------|------------------|
-| Iterative   | O(max(n, m))     | O(max(n, m))     |
+| Iterative   | $O(max(n, m))$     | $O(max(n, m))$     |
 
 ---
 
