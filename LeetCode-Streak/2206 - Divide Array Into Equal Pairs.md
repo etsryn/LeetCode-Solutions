@@ -180,7 +180,7 @@ class Solution {
 
 #### Execution of above code:
 ```link
-    [https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576961902/?envType=daily-question&envId=2025-03-17](https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576961902/?envType=daily-question&envId=2025-03-17)
+    https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576961902/?envType=daily-question&envId=2025-03-17
 ```
 
 ✅ **Time Complexity:** O(n)
