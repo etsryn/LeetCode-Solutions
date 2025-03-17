@@ -51,7 +51,7 @@ If all assertions pass, then your solution will be **accepted**.
 - `0 <= nums[i] <= 50`
 - `0 <= val <= 100`
 
-## 💡 Approach 1: Brute Force (Naive) (Time Complexity: O(n²))
+## 💡 Approach 1: Brute Force (Naive) (Time Complexity: `O(n²)`)
 
 ### 🔧 C++ Solution
 
@@ -96,13 +96,9 @@ class Solution {
     https://leetcode.com/problems/remove-element/submissions/1575311968/
 ```
 
-✅ **Time Complexity:** O(n²) (In worst cases with repeated shifts)
-
-✅ **Space Complexity:** O(1)
-
 ---
 
-## 💡 Approach 2: Two Pointers (Efficient In-Place) (Time Complexity: O(n))
+## 💡 Approach 2: Two Pointers (Efficient In-Place) (Time Complexity: `O(n)`)
 
 - **Idea:** Use two pointers — one for iterating and one for writing only valid elements.
 
@@ -149,13 +145,9 @@ class Solution {
     https://leetcode.com/problems/remove-element/submissions/1575321499/
 ```
 
-✅ **Time Complexity:** O(n)
-
-✅ **Space Complexity:** O(1)
-
 ---
 
-## 💡 Approach 3: Swap to End (Fewer Writes) (Time Complexity: O(n))
+## 💡 Approach 3: Swap to End (Fewer Writes) (Time Complexity: `O(n)`)
 
 ### 🔧 C++ Solution
 
@@ -206,19 +198,15 @@ class Solution {
     https://leetcode.com/problems/remove-element/submissions/1575317408/
 ```
 
-✅ **Time Complexity:** O(n)
-
-✅ **Space Complexity:** O(1)
-
 ---
 
 ## 🔍 Comprehensive Complexity Analysis
 
 | Approach         | Time Complexity | Space Complexity | Notes                                |
 | ---------------- | --------------- | ---------------- | ------------------------------------ |
-| Brute Force      | O(n²)           | O(1)             | Shifts elements repeatedly           |
-| Two Pointers     | O(n)            | O(1)             | Stable, maintains order              |
-| Swap to End      | O(n)            | O(1)             | Unstable, faster for fewer writes    |
+| Brute Force      | $O(n^2)$        | $O(1)$           | Shifts elements repeatedly           |
+| Two Pointers     | $O(n)$          | $O(1)$           | Stable, maintains order              |
+| Swap to End      | $O(n)$          | $O(1)$           | Unstable, faster for fewer writes    |
 
 ---
 
