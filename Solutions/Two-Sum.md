@@ -38,7 +38,7 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 ---
 
-## 💡 Approach 1: Brute Force (Time Complexity: O(n²))
+## 💡 Approach 1: Brute Force (Time Complexity: `O(n²)`)
 
 ### 🔧 C++ Solution
 ```cpp
@@ -88,7 +88,7 @@ public class Solution {
 
 ---
 
-## 💡 Approach 2: Hash Map (Time Complexity: O(n))
+## 💡 Approach 2: Hash Map (Time Complexity: `O(n)`)
 
 ### 🔧 C++ Solution
 ```cpp
@@ -148,8 +148,8 @@ class Solution {
 
 | Approach      | Time Complexity | Space Complexity |
 |---------------|------------------|------------------|
-| Brute Force   | O(n²)            | O(1)             |
-| Hash Map      | O(n)             | O(n)             |
+| Brute Force   | $O(n^2)$         | $O(1)$           |
+| Hash Map      | $O(n)$           | $O(n)$           |
 
 ---
 
