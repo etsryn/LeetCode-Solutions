@@ -164,13 +164,13 @@ class Solution {
 
 ## 🏅 Key Takeaways  
 
-[x] **Optimized Using Binary Search:** The solution efficiently finds the maximum candies per child using **binary search on the answer**.  
-[x] **Time Complexity:** **O(N log(sum(candies) / k))**, where `N` is the number of candy piles.  
-[x] **Space Complexity:** **O(1)** since no extra space is used apart from variables.  
-[x] **Avoids Integer Overflow:** Uses **`m = (l + r + 1) / 2`** to prevent overflow when calculating the middle value.  
-[x] **Iterative & Efficient:** Uses a **while loop** for binary search and a simple loop for division, avoiding unnecessary stream operations.  
-[x] **Handles Edge Cases:** Covers cases where `sum < k`, a single pile of candies, and very large `k` values.  
-[x] **Improved Readability:** Uses a helper function `numChildren()` to keep the main logic clean and modular.
+- **Optimized Using Binary Search:** The solution efficiently finds the maximum candies per child using **binary search on the answer**.  
+- **Time Complexity:** **O(N log(sum(candies) / k))**, where `N` is the number of candy piles.  
+- **Space Complexity:** **O(1)** since no extra space is used apart from variables.  
+- **Avoids Integer Overflow:** Uses **`m = (l + r + 1) / 2`** to prevent overflow when calculating the middle value.  
+- **Iterative & Efficient:** Uses a **while loop** for binary search and a simple loop for division, avoiding unnecessary stream operations.  
+- **Handles Edge Cases:** Covers cases where `sum < k`, a single pile of candies, and very large `k` values.  
+- **Improved Readability:** Uses a helper function `numChildren()` to keep the main logic clean and modular.
 
 Write code that not only solves problems but stands the test of time — precision, performance, and clarity matter most. 🎯
 
