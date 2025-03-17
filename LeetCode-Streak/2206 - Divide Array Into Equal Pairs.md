@@ -38,7 +38,7 @@ There is no way to divide nums into 4 / 2 = 2 pairs such that the pairs satisfy 
 
 ---
 
-## 💡 Approach 1: Brute Force (Inefficient) (Time Complexity: O(n log n)
+## 💡 Approach 1: Brute Force (Inefficient) (Time Complexity: `O(n log n)`)
 
 ### 🔧 C++ Solution
 
@@ -79,13 +79,13 @@ class Solution {
     https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576956076/?envType=daily-question&envId=2025-03-17
 ```
 
-✅ **Time Complexity:** O(n log n)
+✅ **Time Complexity:** $O(n\ \log n)$
 
-✅ **Space Complexity:** O(1)
+✅ **Space Complexity:** $O(1)$
 
 ---
 
-## 💡 Approach 2: Frequency Count (Optimized Solution) (Time Complexity: O(n))
+## 💡 Approach 2: Frequency Count (Optimized Solution) (Time Complexity: `O(n)`)
 
 ### 🔧 C++ Solution
 
@@ -134,13 +134,13 @@ class Solution {
     https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576959999/?envType=daily-question&envId=2025-03-17
 ```
 
-✅ **Time Complexity:** O(n)
+✅ **Time Complexity:** $O(n)$
 
-✅ **Space Complexity:** O(n)
+✅ **Space Complexity:** $O(n)$
 
 ---
 
-## 💡 Approach 3: Bit Manipulation (Highly Optimized) (Time Complexity: O(n))
+## 💡 Approach 3: Bit Manipulation (Highly Optimized) (Time Complexity: `O(n)`)
 
 ### 🔧 C++ Solution
 
@@ -183,9 +183,9 @@ class Solution {
     https://leetcode.com/problems/divide-array-into-equal-pairs/submissions/1576961902/?envType=daily-question&envId=2025-03-17
 ```
 
-✅ **Time Complexity:** O(n)
+✅ **Time Complexity:** $O(n)$
 
-✅ **Space Complexity:** O(500) → **O(1)**
+✅ **Space Complexity:** O(500) → **$O(1)$**
 
 ---
 
@@ -193,9 +193,9 @@ class Solution {
 
 | Approach              | Time Complexity | Space Complexity | Notes                              |
 | --------------------- | ---------------- | ---------------- | ---------------------------------- |
-| Brute Force           | O(n \log n)       | O(1)             | Sort-based comparison per element  |
-| Frequency Count       | O(n)             | O(n)             | Faster — Uses counts only        |
-| Bit Manipulation      | O(n)             | O(1)             | Most optimized — Constant space  |
+| Brute Force           | $O(n\ \log n)$       | $O(1)$             | Sort-based comparison per element  |
+| Frequency Count       | $O(n)$             | $O(n)$             | Faster — Uses counts only        |
+| Bit Manipulation      | $O(n)$             | $O(1)$             | Most optimized — Constant space  |
 
 ---
 
