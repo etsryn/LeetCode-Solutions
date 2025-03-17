@@ -201,9 +201,9 @@ class Solution {
 
 ## 🏅 Key Takeaways
 
-- [x] **Multiple approaches** — from brute force to optimized.
-- [x] **Handles large inputs efficiently** — optimal solutions run in linear time.
-- [x] **Space optimization** — bit manipulation approach reduces space to constant.
-- [x] **Edge case handling** — covers scenarios with duplicates, unique numbers, and small/large arrays.
+- **Multiple approaches** — from brute force to optimized.
+- **Handles large inputs efficiently** — optimal solutions run in linear time.
+- **Space optimization** — bit manipulation approach reduces space to constant.
+- **Edge case handling** — covers scenarios with duplicates, unique numbers, and small/large arrays.
 
 Write code that not only solves problems but stands the test of time — precision, performance, and clarity matter most. 🎯
