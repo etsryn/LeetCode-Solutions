@@ -39,7 +39,7 @@ Explanation:
 
 ---
 
-## 💡 Approach: Binary Search (Balanced Mechanics) (Time Complexity: O(n * log(10<sup>14</sup>))
+## 💡 Approach: Binary Search (Balanced Mechanics) (Time Complexity: `O(n * log(10<sup>14</sup>)`)
 
 ### 🔧 C++ Solution
 
@@ -109,17 +109,13 @@ class Solution {
     https://leetcode.com/problems/minimum-time-to-repair-cars/submissions/1575529366/?envType=daily-question&envId=2025-03-16
 ```
 
-✅ **Time Complexity:** $O(n \times \log(10^{14}))$
-
-✅ **Space Complexity:** O(1)
-
 ---
 
 ## 🔍 Comprehensive Complexity Analysis
 
 | Approach          | Time Complexity    | Space Complexity | Notes                                       |
 | ----------------- | ------------------ | ---------------- | ------------------------------------------- |
-| Binary Search     | $O(n \times \log(10^{14}))$   | O(1)             | Optimal — Balanced distribution      |
+| Binary Search     | $O(n \times \log(10^{14}))$   | $O(1)$             | Optimal — Balanced distribution      |
 
 ---
 
