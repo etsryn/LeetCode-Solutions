@@ -193,7 +193,7 @@ class Solution {
 
 | Approach              | Time Complexity | Space Complexity | Notes                              |
 | --------------------- | ---------------- | ---------------- | ---------------------------------- |
-| Brute Force           | O(n log n)       | O(1)             | Sort-based comparison per element  |
+| Brute Force           | O(n \log n)       | O(1)             | Sort-based comparison per element  |
 | Frequency Count       | O(n)             | O(n)             | Faster — Uses counts only        |
 | Bit Manipulation      | O(n)             | O(1)             | Most optimized — Constant space  |
 
