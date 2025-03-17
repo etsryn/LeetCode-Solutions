@@ -22,7 +22,4 @@ This file serves as an organized index of all solved LeetCode problems in this r
 | 2594           | Minimum Time to Repair Cars |  C++, Java  | Binary Search on Time (Optimal Solution — Balanced Mechanics) | [Link](./LeetCode-Streak/2594%20-%20Minimum%20Time%20to%20Repair%20Cars.md) |
 | 2206           | Divide Array Into Equal Pairs.md |  C++, Java  | Brute Force, Frequency Count, Bit Manipulation | [Link](./LeetCode-Streak/2206%20-%20Divide%20Array%20Into%20Equal%20Pairs.md) |
 
-
-
-2594 - Minimum Time to Repair Cars.md
 ---
