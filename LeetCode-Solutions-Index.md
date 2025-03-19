@@ -20,6 +20,7 @@ This file serves as an organized index of all solved LeetCode problems in this r
 |----------------|-----------------------------------------|-------------|--------------------------------------------|------------------|
 | 2226           | Maximum Candies Allocated to K Children |  C++, Java  | Binary Search                      | [Link](./LeetCode-Streak/2226%20-%20Maximum%20Candies%20Allocated%20to%20K%20Children.md) |
 | 2594           | Minimum Time to Repair Cars |  C++, Java  | Binary Search on Time (Optimal Solution — Balanced Mechanics) | [Link](./LeetCode-Streak/2594%20-%20Minimum%20Time%20to%20Repair%20Cars.md) |
-| 2206           | Divide Array Into Equal Pairs.md |  C++, Java  | Brute Force, Frequency Count, Bit Manipulation | [Link](./LeetCode-Streak/2206%20-%20Divide%20Array%20Into%20Equal%20Pairs.md) |
+| 2206           | Divide Array Into Equal Pairs |  C++, Java  | Brute Force, Frequency Count, Bit Manipulation | [Link](./LeetCode-Streak/2206%20-%20Divide%20Array%20Into%20Equal%20Pairs.md) |
+| 3191           | Minimum Operations to Make Binary Array Elements Equal to One I |  C++, Java  | Brute Force, Greedy Sliding Window | [Link](./LeetCode-Streak/3191%20-%20Minimum%20Operations%20to%20Make%20Binary%20Array%20Elements%20Equal%20to%20One%20I.md) |
 
 ---
