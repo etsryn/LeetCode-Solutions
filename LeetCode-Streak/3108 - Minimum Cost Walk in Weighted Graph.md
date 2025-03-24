@@ -6,7 +6,7 @@ There is an **undirected weighted graph** with `n` vertices labeled from `0` to 
 
 You are given:
 - An integer `n` representing the number of vertices.
-- An array `edges`, where edges[i] = $[\text{u}_i, v_i, w_i]$ indicates an edge between vertices u_i and v_i with weight w_i.
+- An array `edges`, where edges[i] = $[\text{u}_i, v_i, w_i]$ indicates an edge between vertices $u_i$ and $v_i$ with weight $w_i$.
 - A 2D array `query`, where `query[i] = [si, ti]` represents a query to find the **minimum cost walk** from `si` to `ti`.
 
 A **walk** on a graph is a sequence of vertices and edges. It starts and ends with a vertex, and each edge connects the vertex before it and the vertex after it. A walk can revisit the same edge or vertex multiple times.
