@@ -19,7 +19,7 @@ $$
 
 where `∧` denotes the bitwise `AND` operator.
 
-Return an array `answer`, where `answer[i]` denotes the minimum cost of the walk for `query[i]`. If no such walk exists, return `-1`.
+Return an array `answer`, where `answer[i]` denotes the **minimum** cost of the walk for `query[i]`. If no such walk exists, return `-1`.
 
 ---
 
@@ -31,9 +31,10 @@ Input: n = 5, edges = [[0,1,7],[1,3,7],[1,2,1]], query = [[0,3],[3,4]]
 Output: [1,-1]
 ```
 **Explanation:**
-- For the first query, we can take the path `0 -> 1 -> 2 -> 1 -> 3` with weights `7 & 1 & 1 & 7 = 1`.
-- For the second query, there is no walk between nodes `3` and `4`, so the answer is `-1`.
+![Explaination Diagram](./Attached%20Images/3102_Fig_1.jpg)
 
+To achieve the cost of 1 in the first query, we need to move on the following edges: 0->1 (weight 7), 1->2 (weight 1), 2->1 (weight 1), 1->3 (weight 7).
+In the second query, there is no walk between nodes 3 and 4, so the answer is -1.
 ### Example 2:
 ```plaintext
 Input: n = 3, edges = [[0,2,7],[0,1,15],[1,2,6],[1,2,1]], query = [[1,2]]
