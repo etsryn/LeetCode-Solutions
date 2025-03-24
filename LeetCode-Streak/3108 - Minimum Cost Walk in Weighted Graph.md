@@ -1,3 +1,4 @@
+# Not Completed Yet
 # 🔥 LeetCode Problem: Minimum Cost Walk in Weighted Graph
 
 ## 🎯 Problem Statement
@@ -33,7 +34,7 @@ Output: [1,-1]
 **Explanation:** <br />
 ![Explaination Diagram](../Attached%20Images/3108_Fig_1.jpg)
 
-To achieve the cost of 1 in the first query, we need to move on the following edges: 0->1 (weight 7), 1->2 (weight 1), 2->1 (weight 1), 1->3 (weight 7).
+To achieve the cost of 1 in the first query, we need to move on the following edges: `0->1` (weight 7), `1->2` (weight 1), `2->1` (weight 1), `1->3` (weight 7).
 In the second query, there is no walk between nodes 3 and 4, so the answer is -1.
 ### Example 2:
 ```plaintext
@@ -41,7 +42,8 @@ Input: n = 3, edges = [[0,2,7],[0,1,15],[1,2,6],[1,2,1]], query = [[1,2]]
 Output: [0]
 ```
 **Explanation:**
-- For the query, the path `1 -> 2 -> 1 -> 2` with weights `1 & 6 & 1 = 0` achieves the minimum cost.
+
+To achieve the cost of 0 in the first query, we need to move on the following edges: `1->2` (weight 1), `2->1` (weight 6), `1->2` (weight 1).
 
 ---
 
@@ -49,11 +51,13 @@ Output: [0]
 - `2 <= n <= 10^5`
 - `0 <= edges.length <= 10^5`
 - `edges[i].length == 3`
-- `0 <= ui, vi <= n - 1`, `ui != vi`
-- `0 <= wi <= 10^5`
+- `0 <= uᵢ, vᵢ <= n - 1`
+- `uᵢ != vᵢ`
+- `0 <= wᵢ <= 10^5`
 - `1 <= query.length <= 10^5`
 - `query[i].length == 2`
-- `0 <= si, ti <= n - 1`, `si != ti`
+- `0 <= sᵢ, tᵢ <= n - 1`
+- `sᵢ != tᵢ`
 
 ---
 
@@ -61,43 +65,6 @@ Output: [0]
 
 ### 🔧 C++ Solution
 ```cpp
-#include <vector>
-#include <queue>
-#include <climits>
-using namespace std;
-
-class Solution {
-public:
-    vector<int> minCostWalk(int n, vector<vector<int>>& edges, vector<vector<int>>& queries) {
-        vector<vector<pair<int, int>>> graph(n);
-        for (auto& e : edges) {
-            graph[e[0]].push_back({e[1], e[2]});
-            graph[e[1]].push_back({e[0], e[2]});
-        }
-
-        vector<int> result;
-        for (auto& q : queries) {
-            int start = q[0], end = q[1];
-            queue<pair<int, int>> q;
-            q.push({start, INT_MAX});
-            bool found = false;
-
-            while (!q.empty()) {
-                auto [node, cost] = q.front(); q.pop();
-                if (node == end) {
-                    result.push_back(cost);
-                    found = true;
-                    break;
-                }
-                for (auto& [neighbor, weight] : graph[node]) {
-                    q.push({neighbor, cost & weight});
-                }
-            }
-            if (!found) result.push_back(-1);
-        }
-        return result;
-    }
-};
 ```
 
 #### Execution link:
@@ -111,54 +78,6 @@ https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/submissions/XX
 
 ### 🔧 C++ Solution
 ```cpp
-#include <vector>
-#include <queue>
-#include <unordered_map>
-using namespace std;
-
-class Solution {
-public:
-    vector<int> minCostWalk(int n, vector<vector<int>>& edges, vector<vector<int>>& queries) {
-        vector<unordered_map<int, int>> graph(n);
-        for (auto& e : edges) {
-            int u = e[0], v = e[1], w = e[2];
-            graph[u][v] = graph[v][u] = (graph[u][v] ? graph[u][v] & w : w);
-        }
-
-        vector<int> res;
-        for (auto& q : queries) {
-            int start = q[0], end = q[1];
-            if (start == end) {
-                res.push_back(INT_MAX);
-                continue;
-            }
-
-            queue<pair<int, int>> q;
-            q.push({start, INT_MAX});
-            unordered_map<int, int> visited;
-            visited[start] = INT_MAX;
-            bool found = false;
-
-            while (!q.empty()) {
-                auto [node, cost] = q.front(); q.pop();
-                if (node == end) {
-                    res.push_back(cost);
-                    found = true;
-                    break;
-                }
-                for (auto& [neighbor, weight] : graph[node]) {
-                    int new_cost = cost & weight;
-                    if (!visited.count(neighbor) || visited[neighbor] < new_cost) {
-                        visited[neighbor] = new_cost;
-                        q.push({neighbor, new_cost});
-                    }
-                }
-            }
-            if (!found) res.push_back(-1);
-        }
-        return res;
-    }
-};
 ```
 
 #### Execution link:
