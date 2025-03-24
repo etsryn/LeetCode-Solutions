@@ -28,6 +28,17 @@ The repository is organized by programming language and then by problem categori
 
 ```
 LeetCode-Solutions/
+
+├── Attached Images/
+│   ├── Qno_Fno_no.jpg
+│   | 
+│   .
+│   .
+│   .
+│   .
+│   |
+|   └── Qno_Fno_no.jpg
+|
 ├── LeetCode-Streak/
 │   ├── Daily Questions 1
 │   | 
