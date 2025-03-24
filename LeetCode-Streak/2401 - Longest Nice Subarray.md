@@ -38,7 +38,7 @@ Explanation: The length of the longest nice subarray is 1. Any subarray of lengt
 
 ---
 
-## 💡 Approach 1: Brute Force (Time Complexity: $O(n^2)$)
+## 💡 Approach 1: Brute Force (Time Complexity: `O(n²)`)
 
 ### 🔧 C++ Solution
 ```cpp
@@ -91,7 +91,7 @@ class Solution {
 
 ---
 
-## 💡 Approach 2: Sliding Window Optimization (Time Complexity: $O(n)$)
+## 💡 Approach 2: Sliding Window Optimization (Time Complexity: `O(n)`)
 
 ### 🔧 C++ Solution
 ```cpp
