@@ -30,7 +30,7 @@ Return an array `answer`, where `answer[i]` denotes the **minimum** cost of the 
 Input: n = 5, edges = [[0,1,7],[1,3,7],[1,2,1]], query = [[0,3],[3,4]]
 Output: [1,-1]
 ```
-**Explanation:**
+**Explanation:** <br />
 ![Explaination Diagram](./Attached%20Images/3108_Fig_1.jpg)
 
 To achieve the cost of 1 in the first query, we need to move on the following edges: 0->1 (weight 7), 1->2 (weight 1), 2->1 (weight 1), 1->3 (weight 7).
