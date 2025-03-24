@@ -17,7 +17,7 @@ $$
 \text{cost} = w_0 \land w_1 \land w_2 \land \dots \land w_k
 $$
 
-where `&` denotes the bitwise `AND` operator.
+where `∧` denotes the bitwise `AND` operator.
 
 Return an array `answer`, where `answer[i]` denotes the minimum cost of the walk for `query[i]`. If no such walk exists, return `-1`.
 
