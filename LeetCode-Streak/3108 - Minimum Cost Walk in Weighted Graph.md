@@ -14,8 +14,10 @@ A **walk** on a graph is a sequence of vertices and edges. It starts and ends wi
 The **cost** of a walk starting at node `u` and ending at node `v` is defined as the **bitwise AND** of all the edge weights in the walk:
 
 $$
-\text{cost} = w_0 \and w_1 \land w_2 \land \dots \land w_k
+\text{cost} = w_0 \& w_1 \& w_2 \& \dots \& w_k
 $$
+
+where `&` denotes the bitwise `AND` operator.
 
 Return an array `answer`, where `answer[i]` denotes the minimum cost of the walk for `query[i]`. If no such walk exists, return `-1`.
 
