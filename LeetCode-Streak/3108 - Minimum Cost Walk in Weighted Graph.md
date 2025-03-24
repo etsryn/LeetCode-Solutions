@@ -4,11 +4,14 @@
 
 There is an **undirected weighted graph** with `n` vertices labeled from `0` to `n - 1`.
 
-You are given the integer `n` and an array `edges`, where `edges[i] = [ui, vi, wi]` indicates that there is an edge between vertices `ui` and `vi` with a weight of `wi`.
+You are given:
+- An integer `n` representing the number of vertices.
+- An array `edges`, where `edges[i] = [ui, vi, wi]` indicates an edge between vertices `ui` and `vi` with weight `wi`.
+- A 2D array `query`, where `query[i] = [si, ti]` represents a query to find the **minimum cost walk** from `si` to `ti`.
 
-A walk on a graph is a sequence of vertices and edges. The walk starts and ends with a vertex, and each edge connects the vertex that comes before it and the vertex that comes after it. It's important to note that a walk may visit the same edge or vertex more than once.
+A **walk** on a graph is a sequence of vertices and edges. It starts and ends with a vertex, and each edge connects the vertex before it and the vertex after it. A walk can revisit the same edge or vertex multiple times.
 
-The **cost** of a walk starting at node `u` and ending at node `v` is defined as the bitwise `AND` of the weights of the edges traversed during the walk. In other words, if the sequence of edge weights encountered during the walk is $$w_0 \, w_1, w_2, ..., w_k$$, then the cost is calculated as $$w_0 \& w_1 \& w_2 \& ... \& w_k$$, where `&` denotes the bitwise `AND` operator.
+The **cost** of a walk starting at node `u` and ending at node `v` is defined as the **bitwise AND** of all the edge weights in the walk:
 
 $$cost = w_0 \& w_1 \& w_2 \& ... \& w_k$$
 
