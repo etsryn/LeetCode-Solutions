@@ -7,15 +7,14 @@ There is an **undirected weighted graph** with `n` vertices labeled from `0` to 
 You are given:
 - An integer `n` representing the number of vertices.
 - An array `edges`, where `edges[i] = [uᵢ, vᵢ, wᵢ]` indicates an edge between vertices `uᵢ` and `vᵢ` with weight `wᵢ`.
-- An array `edges`, where edges[i] = $[\text{u}_i, v_i, w_i]$ indicates an edge between vertices $u_i$ and $v_i$ with weight $w_i$.
-- A 2D array `query`, where `query[i] = [si, ti]` represents a query to find the **minimum cost walk** from `si` to `ti`.
+- A 2D array `query`, where `query[i] = [sᵢ, tᵢ]` represents a query to find the **minimum cost walk** from `sᵢ` to `tᵢ`.
 
 A **walk** on a graph is a sequence of vertices and edges. It starts and ends with a vertex, and each edge connects the vertex before it and the vertex after it. A walk can revisit the same edge or vertex multiple times.
 
 The **cost** of a walk starting at node `u` and ending at node `v` is defined as the **bitwise AND** of all the edge weights in the walk:
 
 $$
-\text{cost} = w_0 \land w_1 \land w_2 \land \dots \land w_k
+\text{cost} = w_0 \and w_1 \land w_2 \land \dots \land w_k
 $$
 
 Return an array `answer`, where `answer[i]` denotes the minimum cost of the walk for `query[i]`. If no such walk exists, return `-1`.
