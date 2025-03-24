@@ -148,8 +148,8 @@ class Solution {
 
 | Approach                   | Time Complexity | Space Complexity | Notes |
 |----------------------------|-----------------|------------------|-------|
-| Brute Force                | $O(n^2)$        | $O(1)$           | Checks all pairs of elements, inefficient. 🚫 |
-| Sliding Window Optimization| $O(n)$          | $O(1)$           | Efficient by maintaining a dynamic bitmask. 🚀 |
+| Brute Force                | $O(n^2)$        | $O(1)$           | Checks all pairs of elements, inefficient |
+| Sliding Window Optimization| $O(n)$          | $O(1)$           | Efficient by maintaining a dynamic bitmask |
 
 ---
 
