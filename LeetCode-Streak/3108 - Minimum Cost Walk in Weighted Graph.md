@@ -42,7 +42,7 @@ Input: n = 3, edges = [[0,2,7],[0,1,15],[1,2,6],[1,2,1]], query = [[1,2]]
 Output: [0]
 ```
 **Explanation:**
-![Explaination Diagram](https://assets.leetcode.com/uploads/2024/01/31/q4_example2e.png)
+![Explaination Diagram](../Attached%20Images/3108_Fig_2.jpg)
 To achieve the cost of 0 in the first query, we need to move on the following edges: `1->2` (weight 1), `2->1` (weight 6), `1->2` (weight 1).
 
 ---
