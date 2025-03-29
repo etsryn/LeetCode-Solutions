@@ -3,9 +3,9 @@
 ## 📌 Problem Statement
 You are in a city that consists of `n` intersections numbered from `0` to `n - 1` with bi-directional roads between some intersections. The inputs are generated such that you can reach any intersection from any other intersection and that there is at most one road between any two intersections.
 
-You are given an integer `n` and a 2D integer array `roads` where `roads[i] = [u_i, v_i, time_i]` means that there is a road between intersections `u_i` and `v_i` that takes `time_i` minutes to travel. You want to know **in how many ways you can travel from intersection `0` to intersection `n - 1` in the shortest amount of time**.
+You are given an integer `n` and a 2D integer array `roads` where `roads[i] = [uᵢ, vᵢ, timeᵢ]` means that there is a road between intersections `uᵢ` and `vᵢ` that takes `timeᵢ` minutes to travel. You want to know **in how many ways you can travel from intersection `0` to intersection `n - 1` in the shortest amount of time**.
 
-Return the number of ways you can arrive at your destination in the shortest amount of time. Since the answer may be large, return it modulo `10^9 + 7`.
+Return the number of ways you can arrive at your destination in the shortest amount of time. Since the answer may be large, return it modulo `10⁹ + 7`.
 
 ### Example 1:
 ![Example Diagram](../Attached%20Images/1976_Fig_1.jpg)
@@ -25,9 +25,9 @@ Explanation: There is only one way to go from intersection 0 to intersection 1, 
 - `1 <= n <= 200`
 - `n - 1 <= roads.length <= n * (n - 1) / 2`
 - `roads[i].length == 3`
-- `0 <= u_i, v_i <= n - 1`
-- `1 <= time_i <= 10^9`
-- `u_i != v_i`
+- `0 <= uᵢ, vᵢ <= n - 1`
+- `1 <= timeᵢ <= 10⁹`
+- `uᵢ != vᵢ`
 - There is at most one road connecting any two intersections.
 - You can reach any intersection from any other intersection.
 
