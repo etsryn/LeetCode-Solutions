@@ -8,6 +8,7 @@ You are given an integer `n` and a 2D integer array `roads` where `roads[i] = [u
 Return the number of ways you can arrive at your destination in the shortest amount of time. Since the answer may be large, return it modulo `10^9 + 7`.
 
 ### Example 1:
+![Example Diagram](../Attached%20Images/1976_Fig_1.jpg)
 ```plaintext
 Input: n = 7, roads = [[0,6,7],[0,1,2],[1,2,3],[1,3,3],[6,3,3],[3,5,1],[6,5,1],[2,5,1],[0,4,5],[4,6,2]]
 Output: 4
@@ -17,6 +18,7 @@ Output: 4
 ```plaintext
 Input: n = 2, roads = [[1,0,10]]
 Output: 1
+Explanation: There is only one way to go from intersection 0 to intersection 1, and it takes 10 minutes.
 ```
 
 ### Constraints
