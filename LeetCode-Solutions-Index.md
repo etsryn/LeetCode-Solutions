@@ -6,11 +6,11 @@ This file serves as an organized index of all solved LeetCode problems in this r
 
 ## 📌 Problem List ( as per LeetCode )
 
-| Problem Number | Title               | Language(s) |                 Approaches                 | Link to Solution |
-|----------------|---------------------|-------------|--------------------------------------------|------------------|
-| 1              | Two Sum             |  C++, Java  | Brute-Force, Hash Map                      | [Link](./Solutions/Two-Sum.md) |
-| 2              | Add Two Numbers     |  C++, Java  | Iterative                                  | [Link](./Solutions/Add-Two-Numbers.md) |
-| 27             | Remove Element      |  C++, Java  | Brute Force (Naive), Two Pointers (Efficient In-Place), Swap to End (Fewer Writes)                                  | [Link](./Solutions/Remove-Element.md) |
+|Serial No.| Problem Number | Title               | Language(s) |                 Approaches                 | Link to Solution |
+|1|----------------|---------------------|-------------|--------------------------------------------|------------------|
+|2| 1              | Two Sum             |  C++, Java  | Brute-Force, Hash Map                      | [Link](./Solutions/Two-Sum.md) |
+|3| 2              | Add Two Numbers     |  C++, Java  | Iterative                                  | [Link](./Solutions/Add-Two-Numbers.md) |
+|4| 27             | Remove Element      |  C++, Java  | Brute Force (Naive), Two Pointers (Efficient In-Place), Swap to End (Fewer Writes)                                  | [Link](./Solutions/Remove-Element.md) |
 
 ---
 
