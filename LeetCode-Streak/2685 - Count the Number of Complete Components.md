@@ -12,8 +12,6 @@ A **connected component** is said to be **complete** if there exists an edge bet
 
 ### Example 1:
 ![Example Diagram](../Attached&20Images/1685_Fig_1.jpg)
-
-
 ```plaintext
 Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4]]
 Output: 3
