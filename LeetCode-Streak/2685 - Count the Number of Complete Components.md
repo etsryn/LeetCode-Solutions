@@ -11,7 +11,7 @@ A **connected component** is a subgraph of a graph in which there exists a path 
 A **connected component** is said to be **complete** if there exists an edge between every pair of its vertices.
 
 ### Example 1:
-![Example Diagram](../Attached&20Images/1685_Fig_1.jpg)
+![Example Diagram](../Attached&20Images/2685_Fig_1.jpg)
 ```plaintext
 Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4]]
 Output: 3
@@ -19,7 +19,7 @@ Explanation: From the picture above, one can see that all of the components of t
 ```
 
 ### Example 2:
-![Example Diagram](../Attached&20Images/1685_Fig_2.jpg)
+![Example Diagram](../Attached&20Images/2685_Fig_2.jpg)
 ```plaintext
 Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4],[3,5]]
 Output: 1
