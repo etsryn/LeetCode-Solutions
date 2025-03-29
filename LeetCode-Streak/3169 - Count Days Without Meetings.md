@@ -133,8 +133,8 @@ public:
     int countDays(int days, vector<vector<int>>& meetings) {
         vector<pair<int, int>> events;
         for(auto& m : meetings) {
-            events.push_back({m[0], 1}); // Meeting start
-            events.push_back({m[1] + 1, -1}); // Meeting end
+            events.push_back({m[0], 1});
+            events.push_back({m[1] + 1, -1});
         }
         sort(events.begin(), events.end());
         int freeDays = 0, ongoingMeetings = 0, lastDay = 1;
@@ -161,8 +161,8 @@ class Solution {
     public int countDays(int days, int[][] meetings) {
         List<int[]> events = new ArrayList<>();
         for(int[] m : meetings) {
-            events.add(new int[]{m[0], 1}); // Meeting start
-            events.add(new int[]{m[1] + 1, -1}); // Meeting end
+            events.add(new int[]{m[0], 1});
+            events.add(new int[]{m[1] + 1, -1});
         }
         events.sort((a, b) -> Integer.compare(a[0], b[0]));
         int freeDays = 0, ongoingMeetings = 0, lastDay = 1;
@@ -189,7 +189,7 @@ class Solution {
 
 | Approach                 | Time Complexity | Space Complexity | Notes                                                        |
 |--------------------------|-----------------|------------------|--------------------------------------------------------------|
-| **Brute Force**          | `O(n*d)`        | `O(1)`           | [Code will not work, it will give Time Limit Exceeded Issue] |
+| **Brute Force**          | `O(n*d)`        | `O(1)`           | Code will not work, it will give Time Limit Exceeded Issue   |
 | **Sorting & Merging**    | `O(n log n)`    | `O(n)`           | Sorts and merges intervals to find available days            |
 | **Sweep Line Algorithm** | `O(n log n)`    | `O(n)`           | Uses event points to track meetings and count free days      |
 
