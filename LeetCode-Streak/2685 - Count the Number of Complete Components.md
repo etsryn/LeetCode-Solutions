@@ -19,7 +19,9 @@ Explanation: From the picture above, one can see that all of the components of t
 ```
 
 ### Example 2:
+
 ![Example Diagram](../Attached&20Images/2685_Fig_2.jpg)
+
 ```plaintext
 Input: n = 6, edges = [[0,1],[0,2],[1,2],[3,4],[3,5]]
 Output: 1
