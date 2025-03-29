@@ -24,5 +24,6 @@ This file serves as an organized index of all solved LeetCode problems in this r
 | 3191           | Minimum Operations to Make Binary Array Elements Equal to One I |  C++, Java  | Brute Force, Greedy Sliding Window | [Link](./LeetCode-Streak/3191%20-%20Minimum%20Operations%20to%20Make%20Binary%20Array%20Elements%20Equal%20to%20One%20I.md) |
 | 2401           | Longest Nice Subarray |  C++, Java  | Brute Force, Sliding Window Optimization | [Link](./LeetCode-Streak/2401%20-%20Longest%20Nice%20Subarray.md) |
 | 3108           | Minimum Cost Walk in Weighted Graph |  C++, Java  | Not Completed Yet | [Link](./LeetCode-Streak/%20-%20Minimum%20Cost%20Walk%20in%20Weighted%20Graph.md) |
+| 1976           | Number of Ways to Arrive at Destination |  C++, Java  | Dijkstra's Algorithm | [Link](./LeetCode-Streak/1976%20-%20Number%20of%20Ways%20to%20Arrive%20at%20Destination.md) |
 
 ---
