@@ -27,5 +27,6 @@ This file serves as an organized index of all solved LeetCode problems in this r
 |7| 2685           | Count the Number of Complete Components |  C++, Java  | Brute Force, Unio-Find | [Link](./LeetCode-Streak/2685%20-%20Count%20the%20Number%20of%20Complete%20Components.md) |
 |8| 3108           | Minimum Cost Walk in Weighted Graph |  C++, Java  | Not Completed Yet | [Link](./LeetCode-Streak/%20-%20Minimum%20Cost%20Walk%20in%20Weighted%20Graph.md) |
 |9| 3191           | Minimum Operations to Make Binary Array Elements Equal to One I |  C++, Java  | Brute Force, Greedy Sliding Window | [Link](./LeetCode-Streak/3191%20-%20Minimum%20Operations%20to%20Make%20Binary%20Array%20Elements%20Equal%20to%20One%20I.md) |
+|10| 3169           | Count Days Without Meetings |  C++, Java  | Brute Force, Sorting & Merging, Sweep Line Algorithm | [Link](./LeetCode-Streak/3169%20-%20Count%20Days%20Without%20Meetings.md) |
 
 ---
