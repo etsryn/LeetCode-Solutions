@@ -24,7 +24,8 @@ This file serves as an organized index of all solved LeetCode problems in this r
 |4| 2226           | Maximum Candies Allocated to K Children |  C++, Java  | Binary Search                      | [Link](./LeetCode-Streak/2226%20-%20Maximum%20Candies%20Allocated%20to%20K%20Children.md) |
 |5| 2401           | Longest Nice Subarray |  C++, Java  | Brute Force, Sliding Window Optimization | [Link](./LeetCode-Streak/2401%20-%20Longest%20Nice%20Subarray.md) |
 |6| 2594           | Minimum Time to Repair Cars |  C++, Java  | Binary Search on Time (Optimal Solution — Balanced Mechanics) | [Link](./LeetCode-Streak/2594%20-%20Minimum%20Time%20to%20Repair%20Cars.md) |
-|7| 3108           | Minimum Cost Walk in Weighted Graph |  C++, Java  | Not Completed Yet | [Link](./LeetCode-Streak/%20-%20Minimum%20Cost%20Walk%20in%20Weighted%20Graph.md) |
-|8| 3191           | Minimum Operations to Make Binary Array Elements Equal to One I |  C++, Java  | Brute Force, Greedy Sliding Window | [Link](./LeetCode-Streak/3191%20-%20Minimum%20Operations%20to%20Make%20Binary%20Array%20Elements%20Equal%20to%20One%20I.md) |
+|7| 2685           | Count the Number of Complete Components |  C++, Java  | Brute Force, Unio-Find | [Link](./LeetCode-Streak/2685%20-%20Count%20the%20Number%20of%20Complete%20Components.md) |
+|8| 3108           | Minimum Cost Walk in Weighted Graph |  C++, Java  | Not Completed Yet | [Link](./LeetCode-Streak/%20-%20Minimum%20Cost%20Walk%20in%20Weighted%20Graph.md) |
+|9| 3191           | Minimum Operations to Make Binary Array Elements Equal to One I |  C++, Java  | Brute Force, Greedy Sliding Window | [Link](./LeetCode-Streak/3191%20-%20Minimum%20Operations%20to%20Make%20Binary%20Array%20Elements%20Equal%20to%20One%20I.md) |
 
 ---
